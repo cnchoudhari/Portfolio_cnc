@@ -137,6 +137,8 @@ transition: 0.5s;
     color:transparent;
 }
 
+
+
 .content div a{
     text-decoration: none;
     display:inline-block;
@@ -150,6 +152,14 @@ transition: 0.5s;
     
       
 }
+
+/*------------------small screen-----------------------------------*/
+
+
+
+/*-----------------------------------------------------------------*/
+
+
 /*home page end */
 
 /*about page start */
@@ -460,7 +470,7 @@ nav .material-symbols-outlined{
         font-size: 25px;
     }
     nav ul{
-        background: #ff004f;
+        background: linear-gradient(45deg, black  78%  , darkcyan );
         position: fixed;
         top:0;
         right:-200px;
@@ -470,6 +480,7 @@ nav .material-symbols-outlined{
         z-index: 2;
         transition: right 0.5s;
     }
+    
     nav ul li{
         display: block;
         margin: 25px;
@@ -508,8 +519,47 @@ nav .material-symbols-outlined{
         font-size: 14px;
 
     }
+
+    /*-----------------------------------*/
+    .content{
+        text-align: center;
+    }
+.head{
+    font-size: 25px;
 }
 
+
+.head span{
+    font-size: 25px;
+    font-weight: 150;
+    margin-bottom: 2px;
+}
+
+.sentence{
+font-size: 8px;
+
+}
+
+.hbtn{
+text-align: left;
+}
+
+.content div a{
+    text-decoration: none;
+    display:inline-block;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #a5cdf7;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    
+      
+}
+
+
+}
 
 
 
