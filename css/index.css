@@ -94,7 +94,7 @@ html{
 content: '';
 width:0;
 height: 3px;
-background:linear-gradient(245deg, blue , #adfc03 90%);
+background:linear-gradient(245deg, rgb(226, 99, 220) , #0b0b0b 90%);
 position: absolute;
 left:0;
 bottom:-6px;
